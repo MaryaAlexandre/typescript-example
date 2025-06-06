@@ -12,4 +12,10 @@ describe('Função fatorial', () => {
   it('deve lançar erro para número negativo', () => {
     expect(() => fatorial(-3)).toThrow('Número deve ser não negativo');
   });
-});
+
+  it('deve lançar fatorial de 1 é 1', () =>){
+    expect(() => fatorial(1)).toBe(1);
+  });
+};
+
+
