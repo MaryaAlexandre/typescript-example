@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var funcoes_1 = require("./funcoes");
+var numeros = [3, 5, 7, 3, 8, 9, 1];
+console.log("Quadrado for:", (0, funcoes_1.quadradoFor)(numeros));
+console.log("QuadradoForEach:", (0, funcoes_1.quadradoForEach)(numeros));
+var palavras = ['Marya', 'Castelo', 'Banimento'];
+console.log("Concatenado:", (0, funcoes_1.concatenarComEspaco)(palavras));
+var elementos = ['aviao', 'pesquisa', 'vassoura', 'aves'];
+console.log("Ordenar elementos:", (0, funcoes_1.ordenarElementos)(palavras));
+var num2 = [1, 6, 7, 8, 9, 10];
+console.log("Dois Primeiros Números:", (0, funcoes_1.doisPrimeiros)(num2));
+var num3 = [2, 4, 7, 8, 10, 3, 9];
+console.log("Filtrar Pares:", (0, funcoes_1.filtrarPares)(num3));
